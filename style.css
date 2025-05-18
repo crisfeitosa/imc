@@ -132,6 +132,11 @@ form button:hover {
     visibility: hidden;
 }
 
+.modal-wrapper.open {
+    opacity: 1;
+    visibility: visible;
+}
+
 .modal {
     position: relative;
 }
