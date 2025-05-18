@@ -34,3 +34,6 @@ function displayResultMessage(result) {
   inputWeight.value = '';
   inputHeight.value = '';
 }
+
+inputWeight.oninput = () => AlerError.close();
+inputHeight.oninput = () => AlerError.close();
